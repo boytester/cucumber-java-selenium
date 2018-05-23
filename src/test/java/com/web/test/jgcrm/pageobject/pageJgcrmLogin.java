@@ -34,7 +34,7 @@ public class pageJgcrmLogin implements PageBase {
 	}
 	
 	public void go() {
-		data.driver.get("http://10.100.5.18:4288/login");
+		data.driver.get("http:");
 		data.waitForLoadPage(data.driver);
 		
 	}
